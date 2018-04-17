@@ -1,5 +1,8 @@
 /* Text Elements */
 
+
+
+
 h2 {
   margin-bottom: 20px;
   padding-bottom: 10px;
@@ -70,13 +73,26 @@ p.paragraph a.footer_link_copyright {
 }
 
 p.paragraph.welcome-paragraph {
-  max-width: 800px;
-  width: 80%;
+  max-width: 10000px;
+  width: 100%;
   color: #1282DE;
-  margin-top: 40px;
+  margin-top: 1px;
   font-size:20px;
   font-weight:900;
+ 
 }
+p.paragraph.thanks-paragraph {
+max-width: 10000px;
+  width: 60%;
+  color: #1282DE;
+  margin-top: 1px;
+  font-size:20px;
+  font-weight:900;
+
+ }
+
+
+
 p.paragraph.end-paragraph {
   max-width: 800px;
   width: 80%;
@@ -91,8 +107,7 @@ p.paragraph.portfolio-description {
   
 }
 .boxed {
-      width:auto;
-      background:white;  
+      
 
  }
 
@@ -152,7 +167,7 @@ a.link-button {
 
 a.link-button.toc-link {
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   margin-left: 0;
   line-height: 1.2;
   -webkit-transition-duration: .2s;
@@ -520,7 +535,7 @@ a.link-button-glyph.scroll-down {
        -o-flex-direction: column-reverse;
           flex-direction: column-reverse;
   margin-top: 0;
-  margin-bottom: 0px;
+  margin-bottom: -10px;
   padding-top: 50px;
   border-top-left-radius: 0 0;
   border-top-right-radius: 0 0;
@@ -667,6 +682,32 @@ a.link-button-image.get-RSD-bt:hover {
           margin-bottom:10px;
 }
 
+ .sponsors {
+
+  
+   }
+   
+.inassociation {
+float:left;
+
+ }
+.genesis-icon {
+float:left;
+
+ }
+ .waggywishes-logo {
+ float:left;
+ 
+  }
+ 
+.connectinggenerations-icon {
+  float:left;
+ }
+ .fourlegged-logo{
+ float:left;
+  }
+  
+ 
 @media screen and (max-width: 755px) {
   /* Text Elements */
 
@@ -804,7 +845,27 @@ a.link-button-image.get-RSD-bt:hover {
     min-width: 0;
     max-width: 50px;
   }
-
-
+  .genesis-icon {
+  margin-left:1px;
+  margin-right:1px;
+  }
   
-}
+  .waggywishes-logo {
+  margin-left:1px;
+  margin-right:1px;
+  }
+  .connectinggenerations-icon {
+   margin-left:0px;
+  margin-right:1px;
+   }
+  .fourlegged-logo {
+  margin-left:0px;
+  margin-right:1px;
+  
+   }
+   .sponsors {
+
+
+   }
+ 
+  
