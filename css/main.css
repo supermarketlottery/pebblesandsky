@@ -436,7 +436,7 @@ li {
 
 li a.contact_link {
   color: #fff;
-  font-size:20px;
+  font-size:15px;
 }
 
 .row > [class*='coffee-span-'] > .container.footer_contact {
@@ -867,7 +867,28 @@ float:left;
    }
    .sponsors {
 
-
+  
    }
+   
+.inassociation {
+float:center;
+
+ }
+.genesis-icon {
+float:center;
+
+ }
+ .waggywishes-logo {
+ float:center;
+ 
+  }
+ 
+.connectinggenerations-icon {
+  float:center;
+ }
+ .fourlegged-logo{
+ float:center;
+  }
+  
  
   
