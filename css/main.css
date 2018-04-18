@@ -106,8 +106,10 @@ p.paragraph.portfolio-description {
   color: #000707;
   
 }
-.boxed {
-      
+
+
+.uppercase {
+     text-transform:uppercase; 
 
  }
 
